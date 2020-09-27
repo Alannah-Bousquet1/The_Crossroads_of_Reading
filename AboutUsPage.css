@@ -1,0 +1,110 @@
+body{
+    height: 1400px;
+    margin: 0;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #ff944d;
+  }
+
+.Upper1{
+  background-image: url('https://image.freepik.com/free-photo/rows-books-library_73152-2680.jpg');
+  background-size: 1333px auto;
+  background-repeat: no-repeat;
+  background-position: center top 30px;
+  background-color: #ff944d;
+  border: 5px;
+  border-color: #ff944d
+    }
+h1{
+  font-family: cursive;
+  font-size: 60px;
+  }
+
+  p{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: Bold;
+
+  }
+
+  .passage1{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px
+  }
+
+  .passage2{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px
+  }
+
+  .passage3{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px
+  }
+
+  .name{
+    font-size: 25px
+  }
+
+
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cc3300;
+  font-family: verdana;
+  font-size: 17.5px
+  }
+
+  .nav{
+    background-color:	#cc3300;
+    color: #ffffff;
+    list-style: none;
+    padding: 0px 40px;
+  }
+
+  .nav ul li{
+    float: left;
+    display: inline-block;
+  }
+
+  .nav ul li > a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  .nav ul li  a:link:not(.active) {
+  background-color: #cc3300;
+  padding: 20px 22px;
+  }
+
+
+
+  .active:link,.active:visited{
+    background-color: #ff4000;
+    padding: 20px 25px;
+  }
+
+  .active:hover{
+    background-color: #ff531a;
+    padding: 20px 25px;
+  }
+
+    .nav ul li  a:hover:not(.active) {
+    background-color: #992600;
+    padding: 20px 22px;
+  }

@@ -1,0 +1,196 @@
+body{
+    height: 2200px;
+    padding: 0px;
+    margin: 0;
+    border-bottom-width: 200px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #ff944d;
+    background-image: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296592298l/823125.jpg'),
+    url('https://i.pinimg.com/originals/ca/a8/00/caa80041adccf239d9d4a972d5e58a84.jpg'),
+    url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311648575l/570358.jpg'),
+    url('https://images-na.ssl-images-amazon.com/images/I/51gJszsS3JL._SY344_BO1,204,203,200_.jpg');
+    background-repeat: no-repeat,no-repeat, no-repeat, no-repeat;
+    background-size: 230px, 250px, 250px, 250px;
+    background-position: top 360px left 380px, top 720px left 380px, top 1120px left 380px, top 1550px left 380px;
+    }
+
+.Upper1{
+  background-image: url('https://image.freepik.com/free-photo/rows-books-library_73152-2680.jpg');
+  background-size: 1333px auto;
+  background-repeat: no-repeat;
+  background-position: center top 30px;
+  background-color: #ff944d;
+  border: 5px;
+  border-color: #ff944d
+    }
+h1{
+  font-family: cursive;
+  font-size: 60px;
+  }
+
+h2{
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #cc3300;
+font-family: verdana;
+font-size: 17.5px
+}
+
+.nav{
+  background-color:	#cc3300;
+  color: #ffffff;
+  list-style: none;
+  padding: 0px 40px;
+}
+
+.nav ul li{
+  float: left;
+  display: inline-block;
+}
+
+.nav ul li > a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.nav ul li  a:link:not(.active) {
+background-color: #cc3300;
+padding: 20px 22px;
+}
+
+
+
+.active:link,.active:visited{
+  background-color: #ff4000;
+  padding: 20px 25px;
+}
+
+.active:hover{
+  background-color: #ff531a;
+  padding: 20px 25px;
+}
+
+  .nav ul li  a:hover:not(.active) {
+  background-color: #992600;
+  padding: 20px 22px;
+}
+
+  h3{
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 0px
+  }
+
+  .ages ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 25%;
+    background-color: #e6e6e6;
+    height: 685px;
+  }
+
+  .ages ul li a{
+    display:block;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .ages ul li a:not(.special):not(.main){
+    border-left-width: 10px;
+    border-left-color: #e6e6e6;
+    border-left-style: solid;
+  }
+
+  .ages ul li a:hover:not(.special):not(.main){
+    background-color: #bfbfbf;
+    border-left-width: 10px;
+    border-left-color: #bfbfbf;
+    border-left-style: solid;
+  }
+
+  .ages ul .special{
+    background-color: #808080;
+    color:white;
+  }
+
+  .ages ul .special a{
+    color: white;
+  }
+
+  .ages ul .main:hover{
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+    background-color: #bfbfbf;
+  }
+
+  .ages ul .main{
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+  }
+
+.BBook{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: 600px;
+  padding-right: 20px;
+}
+
+.GMoon{
+    font-family: cursive;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    bottom: 450px;
+    padding-left: 670px;
+    padding-right: 60px
+}
+
+.CCBBoom{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: 250px;
+  padding-left: 670px;
+  padding-right: 60px
+}
+
+.MBCMoo{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  padding-top: 40px;
+  padding-left: 670px;
+  padding-right: 60px
+}
+
+.Help{
+  position: relative;
+  padding-top: 1020px;
+  text-align: center;
+  padding-left: 70px
+}
+
+.help{
+  font-family: cursive;
+  font-size: 25px
+}

@@ -1,0 +1,198 @@
+body{
+    height: 2700px;
+    padding: 0px;
+    margin: 0;
+    border-bottom-width: 200px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #ff944d;
+    background-image: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435904946l/4643301._SY475_.jpg'),
+    url('http://static.oprah.com/2018/02/201802-orig-15-books-to-solve-problems-outliers-949x1356.jpg'),
+    url('http://www.5minutesformom.com/wp-content/uploads/2017/11/murder-orient-express.png'),
+    url('http://uk.nicholassparks.com/wp-content/uploads/sites/3/1996/07/notebook-680x1020.jpg');
+    background-repeat: no-repeat,no-repeat, no-repeat, no-repeat;
+    background-size: 230px, 250px, 250px, 250px;
+    background-position: top 360px left 380px, top 970px left 380px, top 1450px left 380px, top 1950px left 380px;
+    }
+
+.Upper1{
+  background-image: url('https://image.freepik.com/free-photo/rows-books-library_73152-2680.jpg');
+  background-size: 1333px auto;
+  background-repeat: no-repeat;
+  background-position: center top 30px;
+  background-color: #ff944d;
+  border: 5px;
+  border-color: #ff944d
+    }
+h1{
+  font-family: cursive;
+  font-size: 60px;
+  }
+
+h2{
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #cc3300;
+font-family: verdana;
+font-size: 17.5px
+}
+
+.nav{
+  background-color:	#cc3300;
+  color: #ffffff;
+  list-style: none;
+  padding: 0px 40px;
+}
+
+.nav ul li{
+  float: left;
+  display: inline-block;
+}
+
+.nav ul li > a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.nav ul li  a:link:not(.active) {
+background-color: #cc3300;
+padding: 20px 22px;
+}
+
+
+
+.active:link,.active:visited{
+  background-color: #ff4000;
+  padding: 20px 25px;
+}
+
+.active:hover{
+  background-color: #ff531a;
+  padding: 20px 25px;
+}
+
+  .nav ul li  a:hover:not(.active) {
+  background-color: #992600;
+  padding: 20px 22px;
+}
+
+  h3{
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 0px
+  }
+
+  .ages ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 25%;
+    background-color: #e6e6e6;
+    height: 685px;
+  }
+
+  .ages ul li a{
+    display:block;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .ages ul li a:not(.special):not(.main){
+    border-left-width: 10px;
+    border-left-color: #e6e6e6;
+    border-left-style: solid;
+  }
+
+  .ages ul li a:hover:not(.special):not(.main){
+    background-color: #bfbfbf;
+    border-left-width: 10px;
+    border-left-color: #bfbfbf;
+    border-left-style: solid;
+  }
+
+  .ages ul .special{
+    background-color: #808080;
+    color:white;
+  }
+
+  .ages ul .special a{
+    color: white;
+  }
+
+  .ages ul .main:hover{
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+    background-color: #bfbfbf;
+  }
+
+  .ages ul .main{
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+  }
+
+.BBook{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: 650px;
+  padding-right: 20px;
+}
+
+.GMoon{
+    font-family: cursive;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    bottom: 570px;
+    padding-left: 670px;
+    padding-right: 60px
+}
+
+.CCBBoom{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: 410px;
+  padding-left: 670px;
+  padding-right: 60px
+}
+
+.MBCMoo{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: 250px;
+  padding-left: 670px;
+  padding-right: 60px
+}
+
+.Help{
+  position: relative;
+  top:-70px;
+  padding-top: 800px;
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 120px
+}
+
+.help{
+  font-family: cursive;
+  font-size: 25px
+}

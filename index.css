@@ -1,0 +1,150 @@
+body{
+  background-image: url('https://image.freepik.com/free-photo/rows-books-library_73152-2680.jpg');
+  background-size: 1333px 1000px;
+  background-repeat: no-repeat;
+  background-position: center top 30px;
+  background-color:  #ff944d;
+  height: 1030px;
+  border: solid;
+  border-color:  #ff944d;
+    }
+h1{
+  font-family: cursive;
+  font-size: 60px;
+  }
+
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cc3300;
+  font-family: verdana;
+  font-size: 17.5px
+  }
+
+  .nav{
+    background-color:	#cc3300;
+    color: #ffffff;
+    list-style: none;
+    padding: 0px 40px;
+  }
+
+  .nav ul li{
+    float: left;
+    display: inline-block;
+  }
+
+  .nav ul li > a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  .nav ul li  a:link:not(.active) {
+  background-color: #cc3300;
+  padding: 20px 22px;
+}
+
+
+
+  .active:link,.active:visited{
+    background-color: #ff4000;
+    padding: 20px 25px;
+  }
+
+  .active:hover{
+    background-color: #ff531a;
+    padding: 20px 25px;
+  }
+
+    .nav ul li  a:hover:not(.active) {
+    background-color: #992600;
+    padding: 20px 22px;
+  }
+
+  h3{
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 0px
+  }
+
+  .RAB{
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 150px;
+  }
+
+.A1{
+  margin-top: 13px;
+  height: 400px;
+  display: block;
+  float:left;
+  padding: 10px;
+}
+
+.BookImages::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.WhyRead{
+  font-family: cursive;
+  font-size: 30px;
+  float: right;
+  position: relative;
+  top: -470px;
+  padding-right: 125px;
+}
+
+.ReadingVid1{
+  position: relative;
+  top:-450px;
+  padding-left: 950px;
+}
+
+.ReadingVid2{
+  position: relative;
+  margin:5px;
+  top:-445px;
+  padding-left: 945px;
+}
+
+.ReadingVid3{
+  position: relative;
+  margin:5px;
+  top:-440px;
+  padding-left: 945px;
+}
+
+.Buisnesses{
+  font-family: cursive;
+  font-size: 25px;
+  position: relative;
+  top:-430px;
+  padding-left: 30px
+}
+
+.Motto{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.links{
+  font-family: cursive;
+  font-size: 15px;
+  padding-left: 95px;
+  position: relative;
+  top:-405px
+}
+
+.Form{
+  font-family: cursive;
+  font-size: 30px;
+  padding-left: 20px;
+  position: relative;
+  top: -500px
+}

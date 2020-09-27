@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> The Crossroads of Reading </title>
+    <link href="SignUpPage.css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+  </head>
+
+  <body>
+    <div class="Upper1">
+    <br>
+    <div class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUsPage.html">About</a></li>
+        <li><a href="OurLibraryPage.html">Our Library</a></li>
+        <li style="float:right"><a class="active" href="SignUpPage.html">Sign Up</a></li>
+        <li style="float:right"><a href="LoginPage.html">Login</a></li>
+        <li><a href="ContactPage.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+
+
+
+      <form style="border:1px solid #cccccc" autocomplete="on" onsubmit="myfunc()">
+        <div class="Form">
+
+          <p style="font-family:sans-serif; padding-top:30px; font-size: 38px">Sign Up! And Turn Over A New Page!</p>
+          <p style=" font-family: cursive; font-size: 25px"> Fill out this form to create an account.</p>
+          <hr>
+          <br>
+          <br>
+          <br>
+          <label style=" font-family: cursive; font-size: 20px;" for="email">Email</label><br>
+          <input type="email" placeholder="Enter Email Here..." name="email" required>
+          <br>
+          <label style=" font-family: cursive; font-size: 20px; " for="Username">Username</label><br>
+          <input type="text" placeholder="Your Username Here..." name="Username" required>
+          <br>
+          <label style=" font-family: cursive; font-size: 20px;" for="psw">Password</label><br>
+          <input type="password" placeholder="Your Password Here..." name="psw" required>
+          <br>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px; font-family: cursive; font-size: 20px">Remember me
+          </label>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="Button">
+            <button type="reset" class="cancelbtn" style="font-family: sans-serif; font-size:15px"><b>Cancel</b></button>
+            <button type="submit" class="signupbtn"  style="font-family: sans-serif; font-size:15px"><b>Sign Up</b></button>
+
+          </div>
+
+        </div>
+        <script>
+        function myfunc() {
+          alert("Your Account Has Been Created!");
+          }
+        </script>
+      </form>
+   </body>
+</html>

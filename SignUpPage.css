@@ -1,0 +1,143 @@
+body{
+    height: 990px;
+    margin: 0;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #ff944d;
+  }
+
+.Upper1{
+  background-color: #ff944d;
+  border: 5px;
+  border-color: #ff944d
+    }
+.Heading{
+  font-family: cursive;
+  font-size: 60px;
+  }
+
+h2{
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #cc3300;
+font-family: verdana;
+font-size: 17.5px
+}
+
+.nav{
+  background-color:	#cc3300;
+  color: #ffffff;
+  list-style: none;
+  padding: 0px 40px;
+}
+
+.nav ul li{
+  float: left;
+  display: inline-block;
+}
+
+.nav ul li > a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.nav ul li  a:link:not(.active) {
+background-color: #cc3300;
+padding: 20px 22px;
+}
+
+
+
+.active:link,.active:visited{
+  background-color: #ff4000;
+  padding: 20px 25px;
+}
+
+.active:hover{
+  background-color: #ff531a;
+  padding: 20px 25px;
+}
+
+  .nav ul li  a:hover:not(.active) {
+  background-color: #992600;
+  padding: 20px 22px;
+}
+
+  h3{
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 0px
+  }
+
+
+  .Form{
+    padding: 16px;
+    padding-top: 30px;
+    text-align: center;
+    background-position: center;
+    background-size: 900px;
+    background-repeat: no-repeat;
+  }
+
+* {box-sizing: border-box}
+
+  input[type=text], input[type=password], input[type=email]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border:none;
+    background: #f1f1f1;
+  }
+
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    background-color: #dddddd;
+    outline: none;
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  button {
+    background-color: #00b300;
+    color: white;
+    padding: 17px 23px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.75;
+  }
+
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn, .signupbtn {
+  width: 25%;
+}
+
+.cancelbtn {
+  padding: 17px 23px;
+  background-color: #ff0000;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

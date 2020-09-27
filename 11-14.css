@@ -1,0 +1,196 @@
+body{
+    height: 2240px;
+    padding: 0px;
+    margin: 0;
+    border-bottom-width: 200px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #ff944d;
+    background-image: url('https://tse2.explicit.bing.net/th?id=OIP.WPCuqcVjUlJGCwmu7tzG9AHaHa&pid=Api&P=0&w=300&h=300'),
+    url('https://s-media-cache-ak0.pinimg.com/736x/ca/b4/7b/cab47bf5645defe23bd8b5659807cf1c.jpg'),
+    url('http://d1vzko4h6qahek.cloudfront.net/images/2/books/large/ROJN.jpg'),
+    url('https://vignette4.wikia.nocookie.net/famous-five/images/a/ad/9780340681107-1-.jpg/revision/latest?cb=20121116030922');
+    background-repeat: no-repeat,no-repeat, no-repeat, no-repeat;
+    background-size: 230px, 250px, 250px, 250px;
+    background-position: top 360px left 380px, top 720px left 380px, top 1120px left 380px, top 1550px left 380px;
+    }
+
+.Upper1{
+  background-image: url('https://image.freepik.com/free-photo/rows-books-library_73152-2680.jpg');
+  background-size: 1333px auto;
+  background-repeat: no-repeat;
+  background-position: center top 30px;
+  background-color: #ff944d;
+  border: 5px;
+  border-color: #ff944d
+    }
+h1{
+  font-family: cursive;
+  font-size: 60px;
+  }
+
+h2{
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #cc3300;
+font-family: verdana;
+font-size: 17.5px
+}
+
+.nav{
+  background-color:	#cc3300;
+  color: #ffffff;
+  list-style: none;
+  padding: 0px 40px;
+}
+
+.nav ul li{
+  float: left;
+  display: inline-block;
+}
+
+.nav ul li > a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.nav ul li  a:link:not(.active) {
+background-color: #cc3300;
+padding: 20px 22px;
+}
+
+
+
+.active:link,.active:visited{
+  background-color: #ff4000;
+  padding: 20px 25px;
+}
+
+.active:hover{
+  background-color: #ff531a;
+  padding: 20px 25px;
+}
+
+  .nav ul li  a:hover:not(.active) {
+  background-color: #992600;
+  padding: 20px 22px;
+}
+
+  h3{
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 0px
+  }
+
+  .ages ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 25%;
+    background-color: #e6e6e6;
+    height: 685px;
+  }
+
+  .ages ul li a{
+    display:block;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .ages ul li a:not(.special):not(.main){
+    border-left-width: 10px;
+    border-left-color: #e6e6e6;
+    border-left-style: solid;
+  }
+
+  .ages ul li a:hover:not(.special):not(.main){
+    background-color: #bfbfbf;
+    border-left-width: 10px;
+    border-left-color: #bfbfbf;
+    border-left-style: solid;
+  }
+
+  .ages ul .special{
+    background-color: #808080;
+    color:white;
+  }
+
+  .ages ul .special a{
+    color: white;
+  }
+
+  .ages ul .main:hover{
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+    background-color: #bfbfbf;
+  }
+
+  .ages ul .main{
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+  }
+
+.BBook{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: 600px;
+  padding-right: 80px;
+}
+
+.GMoon{
+    font-family: cursive;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    bottom: 320px;
+    padding-left: 670px;
+    padding-right: 60px
+}
+
+.CCBBoom{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  bottom: 30px;
+  padding-left: 670px;
+  padding-right: 60px
+}
+
+.MBCMoo{
+  font-family: cursive;
+  font-size: 20px;
+  float: right;
+  position: relative;
+  padding-left: 670px;
+  padding-right: 60px;
+  padding-top: 200px
+}
+
+.Help{
+  position: relative;
+  padding-top: 1050px;
+  text-align: center;
+  padding-left: 70px
+}
+
+.help{
+  font-family: cursive;
+  font-size: 25px
+}
