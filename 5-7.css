@@ -9,7 +9,7 @@ body{
     background-image: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327924655l/7779.jpg'),
     url('https://upload.wikimedia.org/wikipedia/en/b/b5/Horton_hatches_the_egg.jpg'),
     url('https://images-na.ssl-images-amazon.com/images/I/51CDMBtlLgL._SX363_BO1,204,203,200_.jpg'),
-    url('https://i.ebayimg.com/images/g/YfkAAOSwMi5dq1kI/s-l400.jpg');
+    url('http://img1.imagesbn.com/p/9780679881292_p0_v1_s260x420.jpg');
     background-repeat: no-repeat,no-repeat, no-repeat, no-repeat;
     background-size: 230px, 250px, 250px, 250px;
     background-position: top 360px left 380px, top 720px left 380px, top 1100px left 380px, top 1490px left 380px;
@@ -115,9 +115,9 @@ padding: 20px 22px;
   }
 
   .ages ul li a:hover:not(.special):not(.main){
-    background-color: #bfbfbf;
+    background-color: #cccccc;
     border-left-width: 10px;
-    border-left-color: #bfbfbf;
+    border-left-color: #cccccc;
     border-left-style: solid;
   }
 
@@ -134,7 +134,7 @@ padding: 20px 22px;
     border-left-width: 10px;
     border-left-color: blue;
     border-left-style: solid;
-    background-color: #bfbfbf;
+    background-color: #cccccc;
   }
 
   .ages ul .main{

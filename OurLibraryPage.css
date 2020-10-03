@@ -5,9 +5,9 @@ body{
     border-width: 15px;
     border-color: #ff944d;
     background-image: url('http://1.bp.blogspot.com/-94mjViIKzbM/Ta0LB-ztTHI/AAAAAAAAAIo/EMP5VD9PfnE/s1600/Tag_book-Chicka_Chicka_Boom_Boom.jpg'),
-    url('http://cdn.quotesgram.com/small/23/22/476522502-are-you-my-mother.jpg'),
-    url('https://i.ebayimg.com/images/g/YfkAAOSwMi5dq1kI/s-l400.jpg'),
-    url('https://www.littlethinkeruae.com/images/thumbs/0004150_the-mysterious-cheese-thief-geronimo-stilton-book-31.jpeg'),
+    url('http://blogs.slj.com/afuse8production/files/2012/05/AreYouMyMother1.jpg'),
+    url('http://img1.imagesbn.com/p/9780679881292_p0_v1_s260x420.jpg'),
+    url('http://img1.imagesbn.com/p/9780439023122_p0_v1_s260x420.JPG'),
     url('https://s-media-cache-ak0.pinimg.com/736x/ca/b4/7b/cab47bf5645defe23bd8b5659807cf1c.jpg'),
     url('http://static.oprah.com/2018/02/201802-orig-15-books-to-solve-problems-outliers-949x1356.jpg'),
     url('http://mybookwormblog.files.wordpress.com/2014/02/lightning-thief1.jpg') ;
@@ -119,10 +119,10 @@ padding: 20px 22px;
   }
 
   .ages ul li a:hover:not(.special){
-    background-color: #bfbfbf;
+    background-color: #cccccc;
     border-left: 10px;
     border-left-style: solid;
-    border-left-color: #bfbfbf
+    border-left-color: #cccccc
   }
 
   .ages ul .special{

@@ -116,9 +116,9 @@ padding: 20px 22px;
   }
 
   .ages ul li a:hover:not(.special):not(.main){
-    background-color: #bfbfbf;
+    background-color: #cccccc;
     border-left-width: 10px;
-    border-left-color: #bfbfbf;
+    border-left-color: #cccccc;
     border-left-style: solid;
   }
 
@@ -135,7 +135,7 @@ padding: 20px 22px;
     border-left-width: 10px;
     border-left-color: blue;
     border-left-style: solid;
-    background-color: #bfbfbf;
+    background-color: #cccccc;
   }
 
   .ages ul .main{
